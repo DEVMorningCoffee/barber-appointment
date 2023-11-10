@@ -12,8 +12,6 @@ const Header = () => {
         <li><a href="index.html" className="current-page text-green-200 transition duration-300 ease-in-out">Home</a></li>
           <li><a href="#gallery" className="text-blue-700 hover:text-green-200 transition duration-300 ease-in-out">Gallery</a></li>
           <li><a href="#team" className="text-blue-700 hover:text-green-200 transition duration-300 ease-in-out">Team</a></li>
-          <li><a href="about.html" className="text-blue-700 hover:text-green-200 transition duration-300 ease-in-out">About</a></li>
-          <li><a href="contact.html" className="text-blue-700 hover:text-green-200 transition duration-300 ease-in-out">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -103,6 +101,8 @@ const Header = () => {
       <h3 className="font-semibold text-center text-lg my-2">Scott Smith</h3>
       <p className="text-center">Owner & Founder</p>
     </div>
+
+
   </div>
   </main>
     </div>
