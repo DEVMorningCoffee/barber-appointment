@@ -11,7 +11,7 @@ const Header = () => {
         <ul className="flex items-center gap-10 font-bold">
         <li><a href="index.html" className="current-page text-green-200 transition duration-300 ease-in-out">Home</a></li>
           <li><a href="#gallery" className="text-blue-700 hover:text-green-200 transition duration-300 ease-in-out">Gallery</a></li>
-          <li><a href="team.html" className="text-blue-700 hover:text-green-200 transition duration-300 ease-in-out">Team</a></li>
+          <li><a href="#team" className="text-blue-700 hover:text-green-200 transition duration-300 ease-in-out">Team</a></li>
           <li><a href="about.html" className="text-blue-700 hover:text-green-200 transition duration-300 ease-in-out">About</a></li>
           <li><a href="contact.html" className="text-blue-700 hover:text-green-200 transition duration-300 ease-in-out">Contact</a></li>
         </ul>
@@ -61,6 +61,49 @@ const Header = () => {
         <img src="/18.jpg" alt="" className="w-full"/>
       </div>
     </div>
+    <div className="team-container" id="team">
+    <div className="team-header text-center py-8">
+      <h1 className="font-bold text-4xl text-blue-700 md:text-2xl lg:text-3xl">The Team</h1>
+    </div>
+  </div>
+
+  <div className="flex flex-wrap -mx-2">
+    <div className="w-full md:w-1/4 p-2">
+      <img src="/19.jpg" alt="" className="w-full rounded-full"/>
+      <h3 className="font-semibold text-center text-lg my-2">Alan Turing</h3>
+      <p className="text-center">Barber</p>
+      <img src="/20.jpg" alt="" className="w-full rounded-full mt-4"/>
+      <h3 className="font-semibold text-center text-lg my-2">Tom Johnson</h3>
+      <p className="text-center">Head Barber</p>
+    </div>
+
+    <div className="w-full md:w-1/4 p-2">
+      <img src="/21.jpg" alt="" className="w-full rounded-full"/>
+      <h3 className="font-semibold text-center text-lg my-2">Alax Laurie</h3>
+      <p className="text-center">Barber</p>
+      <img src="/22.jpg" alt="" className="w-full rounded-full mt-4"/>
+      <h3 className="font-semibold text-center text-lg my-2">Billy Turner</h3>
+      <p className="text-center">Facilitator</p>
+    </div>
+
+    <div className="w-full md:w-1/4 p-2">
+      <img src="/23.jpg" alt="" className="w-full rounded-full"/>
+      <h3 className="font-semibold text-center text-lg my-2">Muri Dane</h3>
+      <p className="text-center">Barber</p>
+      <img src="/24.jpg" alt="" className="w-full rounded-full mt-4"/>
+      <h3 className="font-semibold text-center text-lg my-2">Obi Maidu</h3>
+      <p className="text-center">Manager</p>
+    </div>
+
+    <div className="w-full md:w-1/4 p-2">
+      <img src="/25.jpg" alt="" className="w-full rounded-full"/>
+      <h3 className="font-semibold text-center text-lg my-2">Scarlett Blue</h3>
+      <p className="text-center">Barber</p>
+      <img src="/27.jpg" alt="" className="w-full rounded-full mt-4"/>
+      <h3 className="font-semibold text-center text-lg my-2">Scott Smith</h3>
+      <p className="text-center">Owner & Founder</p>
+    </div>
+  </div>
   </main>
     </div>
    
